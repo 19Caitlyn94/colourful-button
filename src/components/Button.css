@@ -1,0 +1,43 @@
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.color-red {
+  background-color: #FF6B6B;
+}
+
+.color-blue {
+  background-color: #4D96FF;
+}
+
+.color-green {
+  background-color: #6BCB77;
+}
+
+.color-purple {
+  background-color: #9B5DE5;
+}
+
+.color-gradient {
+  background: linear-gradient(45deg, #FF6B6B, #4D96FF, #6BCB77, #9B5DE5);
+  background-size: 400% 400%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} 
