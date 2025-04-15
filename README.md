@@ -25,11 +25,4 @@ Just a button that does stuff when you click it.
    ```
    This will start the development server, typically at `http://localhost:5173`
 
-## Available Scripts
-
-- `npm run dev` - Start the development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint to check code quality
-
 
